@@ -1,0 +1,101 @@
+.container-validation{
+    margin-top: 50px;
+    border: solid thin #00000050;
+    border-radius: 5px;
+    height: 87vh;
+    display: flex;
+    background-color: #138496bb;
+}
+.container-list{
+    border: solid thin #cfcfcf88;
+    border-radius: 5px;
+    flex-basis: 20%;/*layout-weight*/
+    margin: 5px;
+    background-color:#ffffff22;
+}
+.container-data{
+    border: solid thin #138796;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 5px;
+    background-color:#ffffff;
+}
+.content-list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+}
+.card-list{
+    border: solid thin #13879699;
+    border-radius: 5px;
+    margin: 1px 4px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.card-list:hover{
+    border: solid thin #000000;
+    background-color: #ffffff;
+}
+.container-button-validation{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 5px 0;
+}
+.valid-button{
+margin-right: 10px;
+background-color: #218838dd !important;
+border:none;
+height: 35px;
+}
+.reject-button{
+margin-right: 10px;
+background-color: #C82333dd !important;
+border:none;
+height: 35px;
+
+}
+.display-files{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-around; 
+}
+.border-files{
+    border:solid thin #00000050;
+    flex-grow: 1; /*prend le reste*/
+    margin: 0 5px 5px 5px;
+   /* overflow-y: scroll; /*Scroll*/
+}
+.dos-cand-data{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.label-entete{
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: lighter ;
+    font-size: 25px;
+    color:midnightblue;
+    margin-top: 0x ;
+}
+#embed-pdf-viewer{
+    width: 100%;
+    height: 100%;
+}
+.semestres-grp{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+#s-style{
+    flex-basis: 45%;
+}

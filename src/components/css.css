@@ -1,0 +1,360 @@
+
+.logo {
+    margin-right: 2px;
+    padding: 2px 2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: solid 5px #fd7e1466;
+  }
+  .navbar-brand {
+    padding: 0;
+  }
+  .nav-link {
+    color: #ffffff88 !important;
+  }
+  .nav-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #ffc107;
+    color: #ffffff !important;
+  }
+  .nav-header {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .nav-dropdown{
+    display: block;
+    color: white;
+  } 
+ .logout {
+    margin-right: 20px;
+  }
+  .logout:hover {
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #ffc107;
+  }
+  #welcome {
+    margin-top: 75px !important;
+    background-image: url(../Assets/Images/miolahome.png);
+    background-size: 100%;
+    height: 530px;
+  }
+  #welcome-footer {
+    padding-top: 195px;
+    color: hsl(50, 100%, 57%);             
+  }
+  #upload {
+      background: none;
+      margin-top: 60px !important;
+      padding-bottom: 0px;
+  }
+  
+  .file-input {
+    display: flex;
+    flex-direction: row;
+  }
+  .input-button {
+    display: none;
+  }
+  .text-body {
+    margin-top: 10px;
+    flex-basis: 100%;
+    font-weight: bold;
+  }
+  .file-text {
+    flex-grow: 1;
+    border: solid 2px #0000002b;
+    padding: 4px 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.048);
+    position: relative;
+    padding-left: 190px;
+    min-height: 35px;
+  }
+  .file-text::before {
+    content: 'séléctionner un fichier';
+    position: absolute;
+    background-color: #ffc107;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 170px;
+    padding: 2.5px 4px;
+    border: solid 2px #343a4000;
+    background-color: #343a40dd;
+    cursor: pointer;
+    margin: -2px;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .mb-3 {
+    margin-left: 8% !important;
+  }
+  .text-semestre {
+    margin-left: 30px;
+  }
+  #text-important {
+    background-color:   #f1e4bc!important;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  #cin-input {
+    margin-left: 38px !important;
+  }
+  #licence-input {
+    margin-left: 72px;
+  }
+  #deug-input {
+    margin-left: 40px;
+  }
+  .send-button {
+    margin-left: 80% !important;
+    background-color: cornflowerblue;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #text-label {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  #cond-folder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 0 20px 0;
+  }
+  #cond-folder .personal-info .input-group {
+    margin: 0 !important;
+  }
+  #cond-folder .files .input-group {
+    margin: 0 !important;
+  }
+  #cond-folder .personal-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 5px;
+    border: solid thin #00000055;
+    box-shadow: 2px 5px 8px #00000055;
+    flex-basis: 48%;
+    height: 930px;
+  }
+  #cond-folder .files {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+    background-color: #ffffff;
+    padding-top: 25 !important;
+    padding: 40px 30px;
+    border-radius: 5px;
+    border: solid thin #00000055;
+    box-shadow: 2px 5px 8px #00000055;
+    height: 930px ;
+  }
+  .group-title {
+    background-color: violet;
+    width: 100%;
+  }
+  .title{
+    color: rgb(228, 216, 194);
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .controls {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: end;
+    margin: 0 20px;
+  }
+  .page-container {
+    margin: 80px 0;
+  }
+  #create-button {
+    padding: 6px 20px;
+    background-color: #343a40dd;
+    border: none;
+  }
+  #colorfooter{
+    position: relative ;
+    background-color: darkgray;
+    bottom: 0;
+    z-index: 0;
+  }
+  .title-1{
+    font-size: larger;
+    text-underline-position: unset !important;
+    text-shadow:
+               1px 1px 3px #feec85,
+               2px 4px 5px #ec760c,
+               0   8px 7px #973716,
+               1px 9px 8px #451b0e !important;
+  }
+  .semestres-grp{
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 0px 10px 5px 5 !important;
+  }
+  #s-style{
+    margin-right: 10px !important;
+  }
+
+  #affectation-jury {
+    overflow-x: none;
+    margin: 55px;
+    margin-bottom: 0;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #affectation-jury .jury-list {  
+    border: solid thin #00000055;
+    height: 96%;
+    width: 60%;
+    margin: 2%;
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px #00000055;
+  }
+  
+  .jury-list .jury-cards {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+  .jury-list .header {
+    background-color: #000000;
+    width: 100%;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 2px 0 4px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .jury-list .header .title {
+    flex-grow: 1;
+  }
+  .jury-list .header img {
+    width: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .jury-list .jury-card {
+    background-color: #ffffff55;
+    width: 100%;
+    border-bottom: solid thin #00000033;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  
+  .jury-list .jury-list-footer {
+    margin-top: auto;
+    width: 100%;
+    border-top: solid thin #00000066;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+  }
+  
+  .jury-list .jury-card.active {
+    border-left: #ffc107 solid thick;
+  }
+  
+  .jury-list .jury-card .jury-name {
+    flex-grow: 1;
+    font-weight: 480;
+    color: cornflowerblue;
+  }
+
+  .jury-list .jury-card .jury-students-count {
+    width: 60px;
+  }
+  
+  #affectation-jury .students-list {
+    border: solid thin 00000055;
+    height: 96%;
+    width: 30%;
+    margin: 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px #00000055;
+    display: flex;
+    flex-flow: column;
+  }
+  .save-button {
+    position: fixed;
+    bottom: 26px;
+    right: 40px;
+  }
+  
+  #resultat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-flow: column;
+  }
+  #resultat .resultat-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px #00000055;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    cursor: pointer;
+  }
+  #resultat .resultat-card:hover {
+    box-shadow: 5px 5px 10px #00000055;
+  }
+  #resultat .icon {
+    margin-bottom: 20px;
+  }
+  
+  #resultat .icon img {
+    width: 80px;
+  }
+  
+  #resultat .description {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .total-ds{
+    color: tomato;
+  }
+  .no-scroll{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
