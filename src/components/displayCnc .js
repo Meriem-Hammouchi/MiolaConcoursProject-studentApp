@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Col, Card, Table, Image, Button, ButtonGroup, L
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faList, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
-const INSTRUCTOR_API_URL = 'http://localhost:8181/api/test/EvsM'
+const INSTRUCTOR_API_URL = 'http://miolaconcours-student-app.herokuapp.com/api/test/EvsM'
 
 
 export default class displayCnc extends Component {
