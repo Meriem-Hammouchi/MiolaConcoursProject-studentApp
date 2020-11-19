@@ -15,7 +15,7 @@ class CandidateResult extends Component {
         this.getStudentStatus();
     }
     getStudentStatus = () => {
-        Axios.get('http://localhost:8181/dossierCondidature/' + this.props.match.params.id).then((response) => {
+        Axios.get('http://miolaconcours-student-app.herokuapp.com/dossierCondidature/' + this.props.match.params.id).then((response) => {
             const isValid = response.data == 'Validé';
             this.setState({ valid: isValid });
         });
