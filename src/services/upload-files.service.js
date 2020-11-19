@@ -3,7 +3,7 @@ import axios from 'axios';
 class UploadFilesService {
 
     getFiles() {
-        return axios.get("http://localhost:8181/api/test/files");
+        return axios.get("http://miolaconcours-student-app.herokuapp.com/api/test/files");
     }
 }
 
