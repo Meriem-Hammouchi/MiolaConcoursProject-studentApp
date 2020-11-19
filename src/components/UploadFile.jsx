@@ -132,7 +132,7 @@ class UploadFile extends Component {
         formData.append('deugFile', this.state.fileDeug);
         formData.append('licenceFile', this.state.fileLicence);
 
-        axios.post("http://localhost:8181/upload", formData, {
+        axios.post("http://miolaconcours-student-app.herokuapp.com/upload", formData, {
             headers: {
                 "Content-type": "multipart/form-data",
             },
