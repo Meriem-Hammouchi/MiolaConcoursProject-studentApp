@@ -60,8 +60,14 @@ public class DossierCandidatureEntity {
 	 @Column(nullable = false, length = 10)
 	 private float noteAffectee;
 	 
+	 @Column(nullable = false, length = 10)
+	 private float noteEcrit;
+
+	 @Column(nullable = false, length = 10)
+	 private float noteOrale;
+
 	 @Column(nullable = false)
-     private long juryId;
+     	 private long juryId;
 	 
 	 @OneToOne(fetch = FetchType.LAZY)
 	 @JoinColumn(name = "student_id")
