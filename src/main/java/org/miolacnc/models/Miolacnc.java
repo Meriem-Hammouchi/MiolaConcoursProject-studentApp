@@ -23,6 +23,6 @@ public class Miolacnc {
     private String  time_start;
     private String  time_end;
     private String  date_start;
-    private String  date_end;
+    //private String  date_end;
 
 }
