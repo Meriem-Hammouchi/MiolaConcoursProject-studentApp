@@ -18,7 +18,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping(value="/api/test",method = {RequestMethod.GET, RequestMethod.PUT,RequestMethod.DELETE})
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*", maxAge = 3600)
 
 public class FileController {
 
